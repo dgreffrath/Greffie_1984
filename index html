@@ -3,16 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Greffie_1984</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <h1>It works.</h1>
-
-  <img src="images/photo1.jpg" alt="Test image">
-
-</body>
-</html>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <style>
     * {
@@ -50,16 +41,17 @@
     }
   </style>
 </head>
+
 <body>
 
-  <h1>Gallery</h1>
+  <h1>Greffie_1984</h1>
 
   <section class="gallery">
-    <img src="/assets/images/gallery1.jpg" alt="Gallery image 1">
-    <img src="/assets/images/gallery2.jpg" alt="Gallery image 2">
-    <img src="/assets/images/gallery3.jpg" alt="Gallery image 3">
-    <img src="/assets/images/gallery4.jpg" alt="Gallery image 4">
-    <img src="/assets/images/gallery5.jpg" alt="Gallery image 5">
+    <img src="assets/images/gallery1.jpg" alt="Gallery image 1">
+    <img src="assets/images/gallery2.jpg" alt="Gallery image 2">
+    <img src="assets/images/gallery3.jpg" alt="Gallery image 3">
+    <img src="assets/images/gallery4.jpg" alt="Gallery image 4">
+    <img src="assets/images/gallery5.jpg" alt="Gallery image 5">
   </section>
 
 </body>
