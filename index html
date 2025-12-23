@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0b0b0b;
+      color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+      font-weight: 600;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 6px;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Gallery</h1>
+
+  <section class="gallery">
+    <img src="/assets/images/gallery1.jpg" alt="Gallery image 1">
+    <img src="/assets/images/gallery2.jpg" alt="Gallery image 2">
+    <img src="/assets/images/gallery3.jpg" alt="Gallery image 3">
+    <img src="/assets/images/gallery4.jpg" alt="Gallery image 4">
+    <img src="/assets/images/gallery5.jpg" alt="Gallery image 5">
+  </section>
+
+</body>
+</html>
